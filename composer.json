@@ -1,6 +1,6 @@
 {
     "name": "monolog/monolog",
-    "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+    "description": "Sends your logs to files, sockets, inboxes, databases and various web services (forked)",
     "keywords": ["log", "logging", "psr-3"],
     "homepage": "https://github.com/Seldaek/monolog",
     "type": "library",
