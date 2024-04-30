@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Processor;
+namespace WPWCoreMonolog\Processor;
 
-use Monolog\Level;
-use Monolog\Logger;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Logger;
 use Psr\Log\LogLevel;
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Injects Hg branch and Hg revision number in all records

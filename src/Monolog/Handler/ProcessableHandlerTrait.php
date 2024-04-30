@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\ResettableInterface;
-use Monolog\Processor\ProcessorInterface;
-use Monolog\LogRecord;
+use WPWCoreMonolog\ResettableInterface;
+use WPWCoreMonolog\Processor\ProcessorInterface;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Helper trait for implementing ProcessableInterface

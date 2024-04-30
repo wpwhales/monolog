@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\Level;
-use Monolog\Logger;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Logger;
 use Psr\Log\LogLevel;
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Simple handler wrapper that deduplicates log records across multiple requests

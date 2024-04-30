@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Test;
+namespace WPWCoreMonolog\Test;
 
-use Monolog\Level;
-use Monolog\Logger;
-use Monolog\LogRecord;
-use Monolog\DateTimeImmutable;
-use Monolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Logger;
+use WPWCoreMonolog\LogRecord;
+use WPWCoreMonolog\DateTimeImmutable;
+use WPWCoreMonolog\Formatter\FormatterInterface;
 use Psr\Log\LogLevel;
 
 /**

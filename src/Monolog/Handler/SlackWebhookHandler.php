@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\Formatter\FormatterInterface;
-use Monolog\Level;
-use Monolog\Utils;
-use Monolog\Handler\Slack\SlackRecord;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Utils;
+use WPWCoreMonolog\Handler\Slack\SlackRecord;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Sends notifications through Slack Webhooks

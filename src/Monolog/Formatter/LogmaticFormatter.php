@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Formatter;
+namespace WPWCoreMonolog\Formatter;
 
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Encodes message information into JSON in a format compatible with Logmatic.
@@ -50,7 +50,7 @@ class LogmaticFormatter extends JsonFormatter
      * Appends the 'hostname' and 'appname' parameter for indexing by Logmatic.
      *
      * @see http://doc.logmatic.io/docs/basics-to-send-data
-     * @see \Monolog\Formatter\JsonFormatter::format()
+     * @see \WPWCoreMonolog\Formatter\JsonFormatter::format()
      */
     public function normalizeRecord(LogRecord $record): array
     {

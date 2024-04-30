@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\Formatter\FormatterInterface;
 
 /**
  * Interface to describe loggers that have a formatter

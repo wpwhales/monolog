@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Formatter;
+namespace WPWCoreMonolog\Formatter;
 
 use MongoDB\BSON\Type;
 use MongoDB\BSON\UTCDateTime;
-use Monolog\Utils;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Utils;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Formats a record for use with the MongoDBHandler.

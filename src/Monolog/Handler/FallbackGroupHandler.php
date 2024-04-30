@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
 use Throwable;
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Forwards records to at most one handler

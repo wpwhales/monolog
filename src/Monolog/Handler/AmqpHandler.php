@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
 use Gelf\Message as GelfMessage;
-use Monolog\Level;
-use Monolog\Formatter\FormatterInterface;
-use Monolog\Formatter\JsonFormatter;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\Formatter\JsonFormatter;
 use PhpAmqpLib\Message\AMQPMessage;
 use PhpAmqpLib\Channel\AMQPChannel;
 use AMQPExchange;
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 
 class AmqpHandler extends AbstractProcessingHandler
 {

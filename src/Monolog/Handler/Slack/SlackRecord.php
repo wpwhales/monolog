@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler\Slack;
+namespace WPWCoreMonolog\Handler\Slack;
 
-use Monolog\Level;
-use Monolog\Utils;
-use Monolog\Formatter\NormalizerFormatter;
-use Monolog\Formatter\FormatterInterface;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Utils;
+use WPWCoreMonolog\Formatter\NormalizerFormatter;
+use WPWCoreMonolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Slack record utility helping to log to Slack webhooks or API.

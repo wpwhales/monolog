@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Processor;
+namespace WPWCoreMonolog\Processor;
 
-use Monolog\ResettableInterface;
-use Monolog\LogRecord;
+use WPWCoreMonolog\ResettableInterface;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Adds a unique identifier into records

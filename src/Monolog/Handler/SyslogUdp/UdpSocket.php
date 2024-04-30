@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler\SyslogUdp;
+namespace WPWCoreMonolog\Handler\SyslogUdp;
 
-use Monolog\Utils;
+use WPWCoreMonolog\Utils;
 use Socket;
 
 class UdpSocket

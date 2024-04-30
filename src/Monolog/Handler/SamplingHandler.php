@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
 use Closure;
-use Monolog\Formatter\FormatterInterface;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Sampling handler

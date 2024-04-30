@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\Formatter\WildfireFormatter;
-use Monolog\Formatter\FormatterInterface;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Formatter\WildfireFormatter;
+use WPWCoreMonolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Simple FirePHP Handler (http://www.firephp.org/), which uses the Wildfire protocol.

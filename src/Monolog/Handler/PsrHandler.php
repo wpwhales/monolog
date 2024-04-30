@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\Level;
+use WPWCoreMonolog\Level;
 use Psr\Log\LoggerInterface;
-use Monolog\Formatter\FormatterInterface;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Proxies log messages to an existing PSR-3 compliant logger.

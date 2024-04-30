@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\Level;
-use Monolog\Logger;
-use Monolog\ResettableInterface;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Logger;
+use WPWCoreMonolog\ResettableInterface;
 use Psr\Log\LogLevel;
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Base Handler class providing basic level/bubble support

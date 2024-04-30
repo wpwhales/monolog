@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
 use DateTimeInterface;
-use Monolog\Handler\SyslogUdp\UdpSocket;
-use Monolog\Level;
-use Monolog\LogRecord;
-use Monolog\Utils;
+use WPWCoreMonolog\Handler\SyslogUdp\UdpSocket;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\LogRecord;
+use WPWCoreMonolog\Utils;
 
 /**
  * A Handler for logging to a remote syslogd server.

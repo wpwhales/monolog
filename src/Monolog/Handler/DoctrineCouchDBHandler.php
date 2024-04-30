@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\Level;
-use Monolog\Formatter\NormalizerFormatter;
-use Monolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Formatter\NormalizerFormatter;
+use WPWCoreMonolog\Formatter\FormatterInterface;
 use Doctrine\CouchDB\CouchDBClient;
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * CouchDB handler for Doctrine CouchDB ODM

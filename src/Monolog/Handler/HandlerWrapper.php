@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\ResettableInterface;
-use Monolog\Formatter\FormatterInterface;
-use Monolog\LogRecord;
+use WPWCoreMonolog\ResettableInterface;
+use WPWCoreMonolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * This simple wrapper class can be used to extend handlers functionality.

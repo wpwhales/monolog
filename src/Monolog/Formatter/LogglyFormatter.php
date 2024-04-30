@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Formatter;
+namespace WPWCoreMonolog\Formatter;
 
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Encodes message information into JSON in a format compatible with Loggly.
@@ -33,7 +33,7 @@ class LogglyFormatter extends JsonFormatter
      * Appends the 'timestamp' parameter for indexing by Loggly.
      *
      * @see https://www.loggly.com/docs/automated-parsing/#json
-     * @see \Monolog\Formatter\JsonFormatter::format()
+     * @see \WPWCoreMonolog\Formatter\JsonFormatter::format()
      */
     protected function normalizeRecord(LogRecord $record): array
     {

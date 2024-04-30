@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 use Throwable;
 
 /**

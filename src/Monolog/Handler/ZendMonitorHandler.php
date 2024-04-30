@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\Formatter\FormatterInterface;
-use Monolog\Formatter\NormalizerFormatter;
-use Monolog\Level;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\Formatter\NormalizerFormatter;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Handler sending logs to Zend Monitor

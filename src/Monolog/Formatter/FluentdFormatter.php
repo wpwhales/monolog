@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Formatter;
+namespace WPWCoreMonolog\Formatter;
 
-use Monolog\Utils;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Utils;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Class FluentdFormatter

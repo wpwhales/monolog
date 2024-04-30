@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\Level;
-use Monolog\Logger;
-use Monolog\Utils;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Logger;
+use WPWCoreMonolog\Utils;
 use Psr\Log\LogLevel;
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Sends notifications through the pushover api to mobile phones

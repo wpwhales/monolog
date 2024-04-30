@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog;
+namespace WPWCoreMonolog;
 
 use Closure;
 use DateTimeZone;
 use Fiber;
-use Monolog\Handler\HandlerInterface;
-use Monolog\Processor\ProcessorInterface;
+use WPWCoreMonolog\Handler\HandlerInterface;
+use WPWCoreMonolog\Processor\ProcessorInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\InvalidArgumentException;
 use Psr\Log\LogLevel;
@@ -460,7 +460,7 @@ class Logger implements LoggerInterface, ResettableInterface
      * @phpstan-param  value-of<Level::VALUES>|Level $level
      * @phpstan-return value-of<Level::NAMES>
      *
-     * @deprecated Since 3.0, use {@see toMonologLevel} or {@see \Monolog\Level->getName()} instead
+     * @deprecated Since 3.0, use {@see toMonologLevel} or {@see \WPWCoreMonolog\Level->getName()} instead
      */
     public static function getLevelName(int|Level $level): string
     {

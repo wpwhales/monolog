@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler\FingersCrossed;
+namespace WPWCoreMonolog\Handler\FingersCrossed;
 
-use Monolog\Level;
-use Monolog\Logger;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Logger;
 use Psr\Log\LogLevel;
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Channel and Error level based monolog activation strategy. Allows to trigger activation

@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
 use Gelf\PublisherInterface;
-use Monolog\Level;
-use Monolog\Formatter\GelfMessageFormatter;
-use Monolog\Formatter\FormatterInterface;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Formatter\GelfMessageFormatter;
+use WPWCoreMonolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Handler to send messages to a Graylog2 (http://www.graylog2.org) server

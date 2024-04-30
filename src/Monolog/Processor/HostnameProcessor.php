@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Processor;
+namespace WPWCoreMonolog\Processor;
 
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Injects value of gethostname in all records

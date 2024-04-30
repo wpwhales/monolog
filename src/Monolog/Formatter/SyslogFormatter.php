@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Formatter;
+namespace WPWCoreMonolog\Formatter;
 
-use Monolog\Level;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Serializes a log message according to RFC 5424

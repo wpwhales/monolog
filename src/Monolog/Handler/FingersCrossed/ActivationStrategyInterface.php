@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler\FingersCrossed;
+namespace WPWCoreMonolog\Handler\FingersCrossed;
 
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Interface for activation strategies for the FingersCrossedHandler.

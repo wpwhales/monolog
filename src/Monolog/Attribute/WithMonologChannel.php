@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Attribute;
+namespace WPWCoreMonolog\Attribute;
 
 /**
  * A reusable attribute to help configure a class as expecting a given logger channel.

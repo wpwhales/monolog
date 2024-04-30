@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler\FingersCrossed;
+namespace WPWCoreMonolog\Handler\FingersCrossed;
 
-use Monolog\Level;
-use Monolog\LogRecord;
-use Monolog\Logger;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\LogRecord;
+use WPWCoreMonolog\Logger;
 use Psr\Log\LogLevel;
 
 /**

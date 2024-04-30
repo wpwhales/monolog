@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Formatter;
+namespace WPWCoreMonolog\Formatter;
 
-use Monolog\Level;
-use Monolog\Utils;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Utils;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Formats incoming records into an HTML table

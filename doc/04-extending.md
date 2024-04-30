@@ -21,10 +21,10 @@ abstract class provided by Monolog to keep things DRY.
 ```php
 <?php
 
-use Monolog\Level;
-use Monolog\Logger;
-use Monolog\LogRecord;
-use Monolog\Handler\AbstractProcessingHandler;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Logger;
+use WPWCoreMonolog\LogRecord;
+use WPWCoreMonolog\Handler\AbstractProcessingHandler;
 
 class PDOHandler extends AbstractProcessingHandler
 {

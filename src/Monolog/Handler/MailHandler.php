@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\Formatter\FormatterInterface;
-use Monolog\Formatter\HtmlFormatter;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\Formatter\HtmlFormatter;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Base class for all mail handlers

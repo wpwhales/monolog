@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\Formatter\LineFormatter;
-use Monolog\Formatter\FormatterInterface;
-use Monolog\Level;
-use Monolog\Utils;
+use WPWCoreMonolog\Formatter\LineFormatter;
+use WPWCoreMonolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Utils;
 use PhpConsole\Connector;
 use PhpConsole\Handler as VendorPhpConsoleHandler;
 use PhpConsole\Helper;
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 use PhpConsole\Storage;
 
 /**

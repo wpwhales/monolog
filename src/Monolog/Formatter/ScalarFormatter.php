@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Formatter;
+namespace WPWCoreMonolog\Formatter;
 
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Formats data into an associative array of scalar (+ null) values.

@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
 use Closure;
-use Monolog\Handler\FingersCrossed\ErrorLevelActivationStrategy;
-use Monolog\Handler\FingersCrossed\ActivationStrategyInterface;
-use Monolog\Level;
-use Monolog\Logger;
-use Monolog\ResettableInterface;
-use Monolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\Handler\FingersCrossed\ErrorLevelActivationStrategy;
+use WPWCoreMonolog\Handler\FingersCrossed\ActivationStrategyInterface;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Logger;
+use WPWCoreMonolog\ResettableInterface;
+use WPWCoreMonolog\Formatter\FormatterInterface;
 use Psr\Log\LogLevel;
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Buffers all records until a certain level is reached

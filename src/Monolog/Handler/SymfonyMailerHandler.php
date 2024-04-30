@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
 use Closure;
-use Monolog\Level;
-use Monolog\Logger;
-use Monolog\LogRecord;
-use Monolog\Utils;
-use Monolog\Formatter\FormatterInterface;
-use Monolog\Formatter\LineFormatter;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Logger;
+use WPWCoreMonolog\LogRecord;
+use WPWCoreMonolog\Utils;
+use WPWCoreMonolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\Formatter\LineFormatter;
 use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\Mailer\Transport\TransportInterface;
 use Symfony\Component\Mime\Email;

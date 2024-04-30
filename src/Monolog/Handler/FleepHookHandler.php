@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\Formatter\FormatterInterface;
-use Monolog\Formatter\LineFormatter;
-use Monolog\Level;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\Formatter\LineFormatter;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Sends logs to Fleep.io using Webhook integrations

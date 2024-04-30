@@ -48,9 +48,9 @@ composer require monolog/monolog
 ```php
 <?php
 
-use Monolog\Level;
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Logger;
+use WPWCoreMonolog\Handler\StreamHandler;
 
 // create a log channel
 $log = new Logger('name');

@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
 use Aws\Sdk;
 use Aws\DynamoDb\DynamoDbClient;
-use Monolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\Formatter\FormatterInterface;
 use Aws\DynamoDb\Marshaler;
-use Monolog\Formatter\ScalarFormatter;
-use Monolog\Level;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Formatter\ScalarFormatter;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Amazon DynamoDB handler (http://aws.amazon.com/dynamodb/)

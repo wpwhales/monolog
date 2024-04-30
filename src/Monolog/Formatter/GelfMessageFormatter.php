@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Formatter;
+namespace WPWCoreMonolog\Formatter;
 
-use Monolog\Level;
+use WPWCoreMonolog\Level;
 use Gelf\Message;
-use Monolog\Utils;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Utils;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Serializes a log message to GELF

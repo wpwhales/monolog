@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\Formatter\ChromePHPFormatter;
-use Monolog\Formatter\FormatterInterface;
-use Monolog\Level;
-use Monolog\Utils;
-use Monolog\LogRecord;
-use Monolog\DateTimeImmutable;
+use WPWCoreMonolog\Formatter\ChromePHPFormatter;
+use WPWCoreMonolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Utils;
+use WPWCoreMonolog\LogRecord;
+use WPWCoreMonolog\DateTimeImmutable;
 
 /**
  * Handler sending logs to the ChromePHP extension (http://www.chromephp.com/)

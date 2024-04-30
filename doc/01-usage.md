@@ -83,10 +83,10 @@ Here is a basic setup to log to a file and to firephp on the DEBUG level:
 ```php
 <?php
 
-use Monolog\Level;
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
-use Monolog\Handler\FirePHPHandler;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Logger;
+use WPWCoreMonolog\Handler\StreamHandler;
+use WPWCoreMonolog\Handler\FirePHPHandler;
 
 // Create the logger
 $logger = new Logger('my_logger');
@@ -166,10 +166,10 @@ You can easily grep through the log files filtering this or that channel.
 ```php
 <?php
 
-use Monolog\Level;
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
-use Monolog\Handler\FirePHPHandler;
+use WPWCoreMonolog\Level;
+use WPWCoreMonolog\Logger;
+use WPWCoreMonolog\Handler\StreamHandler;
+use WPWCoreMonolog\Handler\FirePHPHandler;
 
 // Create some handlers
 $stream = new StreamHandler(__DIR__.'/my_app.log', Level::Debug);

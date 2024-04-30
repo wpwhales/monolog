@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\Formatter\FormatterInterface;
-use Monolog\Formatter\LineFormatter;
-use Monolog\Utils;
-use Monolog\LogRecord;
-use Monolog\Level;
+use WPWCoreMonolog\Formatter\FormatterInterface;
+use WPWCoreMonolog\Formatter\LineFormatter;
+use WPWCoreMonolog\Utils;
+use WPWCoreMonolog\LogRecord;
+use WPWCoreMonolog\Level;
 
 use function count;
 use function headers_list;

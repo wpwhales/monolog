@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Formatter;
+namespace WPWCoreMonolog\Formatter;
 
-use Monolog\DateTimeImmutable;
-use Monolog\Utils;
+use WPWCoreMonolog\DateTimeImmutable;
+use WPWCoreMonolog\Utils;
 use Throwable;
-use Monolog\LogRecord;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Normalizes incoming records to remove objects/resources so it's easier to dump to various targets

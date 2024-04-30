@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Formatter;
+namespace WPWCoreMonolog\Formatter;
 
 use Closure;
-use Monolog\Utils;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Utils;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Formats incoming records into a one-line string

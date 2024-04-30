@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\Level;
+use WPWCoreMonolog\Level;
 use Psr\Log\LogLevel;
-use Monolog\Logger;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Logger;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Blackhole

@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler;
+namespace WPWCoreMonolog\Handler;
 
-use Monolog\Processor\ProcessorInterface;
-use Monolog\LogRecord;
+use WPWCoreMonolog\Processor\ProcessorInterface;
+use WPWCoreMonolog\LogRecord;
 
 /**
  * Interface to describe loggers that have processors

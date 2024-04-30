@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Monolog\Handler\Curl;
+namespace WPWCoreMonolog\Handler\Curl;
 
 use CurlHandle;
 

@@ -15,8 +15,8 @@ Basic Example
 ```php
 <?php
 
-use Monolog\Logger;
-use Monolog\Handler\SocketHandler;
+use WPWCoreMonolog\Logger;
+use WPWCoreMonolog\Handler\SocketHandler;
 
 // Create the logger
 $logger = new Logger('my_logger');
